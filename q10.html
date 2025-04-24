@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問題 10 - 賽博龐克測驗</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 20px; background-color: #1a1a1a; color: #00ff00; }
+        .container { max-width: 800px; margin: auto; padding: 20px; border: 1px solid #00ff00; box-shadow: 0 0 10px #00ff00; }
+        h2 { color: #ffff00; }
+        button { background-color: #00ff00; color: #1a1a1a; padding: 10px 15px; border: none; cursor: pointer; font-size: 1em; margin: 10px 0; display: block; width: 100%; text-align: left; }
+        button:hover { background-color: #ffff00; box-shadow: 0 0 5px #ffff00; }
+        .question-options button { text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>問題 10 / 12</h2>
+        <p>你在網絡中發現一條來源不明、可能包含重要預警的模糊數據流。你會如何反應？</p>
+
+        <div class="question-options">
+            <button onclick="saveAnswerAndNavigate(10, 'A')">A. 立即嘗試解析數據流中的具體代碼和信息碎片，尋找可證實的、現實的危險信號。</button>
+            <button onclick="saveAnswerAndNavigate(10, 'B')">B. 根據數據流的模式和「氛圍」感知，推測其可能代表的未來危機，即使沒有具體證據也會啟動預警程序。</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
