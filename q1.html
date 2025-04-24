@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問題 1 - 賽博龐克測驗</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 20px; background-color: #1a1a1a; color: #00ff00; }
+        .container { max-width: 800px; margin: auto; padding: 20px; border: 1px solid #00ff00; box-shadow: 0 0 10px #00ff00; }
+        h2 { color: #ffff00; }
+        button { background-color: #00ff00; color: #1a1a1a; padding: 10px 15px; border: none; cursor: pointer; font-size: 1em; margin: 10px 0; display: block; width: 100%; text-align: left; }
+        button:hover { background-color: #ffff00; box-shadow: 0 0 5px #ffff00; }
+        .question-options button { text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>問題 1 / 12</h2>
+        <p>你需要獲取一個特定區域的低層數據。這個區域人流密集，充斥著各種信號。你會選擇：</p>
+
+        <div class="question-options">
+            <button onclick="saveAnswerAndNavigate(1, 'A')">A. 直接進入人流，啟動社交模塊與其他機器人建立臨時連接，從他們的數據交換中快速篩選信息。</button>
+            <button onclick="saveAnswerAndNavigate(1, 'B')">B. 尋找一個僻靜的接入點，遠程入侵或監聽該區域的數據流，在隔離的環境中進行精確分析。</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
