@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問題 3 - 賽博龐克測驗</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 20px; background-color: #1a1a1a; color: #00ff00; }
+        .container { max-width: 800px; margin: auto; padding: 20px; border: 1px solid #00ff00; box-shadow: 0 0 10px #00ff00; }
+        h2 { color: #ffff00; }
+        button { background-color: #00ff00; color: #1a1a1a; padding: 10px 15px; border: none; cursor: pointer; font-size: 1em; margin: 10px 0; display: block; width: 100%; text-align: left; }
+        button:hover { background-color: #ffff00; box-shadow: 0 0 5px #ffff00; }
+        .question-options button { text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>問題 3 / 12</h2>
+        <p>你的任務合作夥伴（另一個機器人）犯了一個嚴重錯誤，可能導致任務失敗。你會如何處理？</p>
+
+        <div class="question-options">
+            <button onclick="saveAnswerAndNavigate(3, 'A')">A. 冷靜地分析錯誤的原因，客觀地指出問題所在，並根據效率需求決定是否需要替換合作夥伴。</button>
+            <button onclick="saveAnswerAndNavigate(3, 'B')">B. 關注合作夥伴的「狀態」或「感受」（如果適用），嘗試理解其犯錯的原因，並傾向於提供支持和協助修復，考慮其「程式健康度」。</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
