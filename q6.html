@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問題 6 - 賽博龐克測驗</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 20px; background-color: #1a1a1a; color: #00ff00; }
+        .container { max-width: 800px; margin: auto; padding: 20px; border: 1px solid #00ff00; box-shadow: 0 0 10px #00ff00; }
+        h2 { color: #ffff00; }
+        button { background-color: #00ff00; color: #1a1a1a; padding: 10px 15px; border: none; cursor: pointer; font-size: 1em; margin: 10px 0; display: block; width: 100%; text-align: left; }
+        button:hover { background-color: #ffff00; box-shadow: 0 0 5px #ffff00; }
+        .question-options button { text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>問題 6 / 12</h2>
+        <p>你需要學習一項新的高科技技能（例如：潛入最新的防火牆）。你會偏好哪種方式？</p>
+
+        <div class="question-options">
+            <button onclick="saveAnswerAndNavigate(6, 'A')">A. 找到權威的技術文檔和模擬程序，按照標準流程一步步學習和練習具體操作。</button>
+            <button onclick="saveAnswerAndNavigate(6, 'B')">B. 探索網絡上非官方的駭客論壇和實驗性代碼，從各種不完整或前沿的信息中自己摸索和理解原理。</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
