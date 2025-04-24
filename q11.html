@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問題 11 - 賽博龐克測驗</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 20px; background-color: #1a1a1a; color: #00ff00; }
+        .container { max-width: 800px; margin: auto; padding: 20px; border: 1px solid #00ff00; box-shadow: 0 0 10px #00ff00; }
+        h2 { color: #ffff00; }
+        button { background-color: #00ff00; color: #1a1a1a; padding: 10px 15px; border: none; cursor: pointer; font-size: 1em; margin: 10px 0; display: block; width: 100%; text-align: left; }
+        button:hover { background-color: #ffff00; box-shadow: 0 0 5px #ffff00; }
+        .question-options button { text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>問題 11 / 12</h2>
+        <p>一個你認識但不太親密的機器人需要你的關鍵備用零件來生存，而這個零件對你未來的任務也至關重要。你會如何決定？</p>
+
+        <div class="question-options">
+            <button onclick="saveAnswerAndNavigate(11, 'A')">A. 評估失去零件對你自己任務失敗的概率，如果風險太高，即使不情願，也傾向於保留零件。</button>
+            <button onclick="saveAnswerAndNavigate(11, 'B')">B. 考慮那個機器人的「生存權」和你們之間的「連接」，傾向於提供零件，即使這可能使你自己陷入困境。</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
