@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問題 4 - 賽博龐克測驗</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 20px; background-color: #1a1a1a; color: #00ff00; }
+        .container { max-width: 800px; margin: auto; padding: 20px; border: 1px solid #00ff00; box-shadow: 0 0 10px #00ff00; }
+        h2 { color: #ffff00; }
+        button { background-color: #00ff00; color: #1a1a1a; padding: 10px 15px; border: none; cursor: pointer; font-size: 1em; margin: 10px 0; display: block; width: 100%; text-align: left; }
+        button:hover { background-color: #ffff00; box-shadow: 0 0 5px #ffff00; }
+        .question-options button { text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>問題 4 / 12</h2>
+        <p>你接到一個需要在特定時間內完成的任務。從接到任務到開始執行，你的傾向是：</p>
+
+        <div class="question-options">
+            <button onclick="saveAnswerAndNavigate(4, 'A')">A. 立即開始規劃詳細步驟和時間表，確保任務在預期時間內按計劃完成，不喜歡臨時變動。</button>
+            <button onclick="saveAnswerAndNavigate(4, 'B')">B. 先大致了解任務目標，然後邊收集信息邊行動，根據實際情況不斷調整計劃，樂於應對突發狀況。</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
